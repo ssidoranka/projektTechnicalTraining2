@@ -1,0 +1,28 @@
+﻿@model List<WebApplication1.Models.Car>
+
+@{
+    ViewData["Title"] = "Car Catalog";
+}
+
+<div class="container">
+    <h1 class="mt-5">Car Catalog</h1>
+
+    <div class="d-flex flex-wrap">
+        @foreach (var car in Model)
+        {
+            <div class="card m-2" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">@car.Make @car.Model</h5>
+                    <p class="card-text">Year: @car.Year</p>
+                    <p class="card-text">Price: @car.Price.ToString("C")</p>
+                    <a class="btn btn-secondary" href="@Url.Action("EditCar", "Home", new { id = car.Id })">Edit</a>
+                    <a class="btn btn-danger" href="@Url.Action("DeleteCar", "Home", new { id = car.Id })">Delete</a>
+                </div>
+            </div>
+        }
+    </div>
+
+    <div class="mt-4 text-right">
+        <a class="btn btn-primary" href="@Url.Action("AddCar", "Home")">Add New Car</a>
+    </div>
+</div>

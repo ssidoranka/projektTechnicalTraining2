@@ -1,0 +1,132 @@
+h1, h2, h3, h4, h5, h6 {
+    color: #333; /* Цвет текста */
+    font-weight: bold; /* Жирный шрифт */
+}
+
+/* Текст */
+p {
+    color: #666; /* Цвет текста */
+    line-height: 1.6; /* Межстрочный интервал */
+}
+
+/* Кнопки */
+.btn {
+    background-color: #007bff; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    border: none; /* Убираем границы */
+    padding: 10px 20px; /* Отступы внутри кнопки */
+    cursor: pointer; /* Курсор при наведении */
+    border-radius: 5px; /* Скругление углов */
+}
+
+    .btn:hover {
+        background-color: #0056b3; /* Цвет фона при наведении */
+    }
+
+/* Карточки */
+.card {
+    border: 1px solid #ddd; /* Граница карточки */
+    border-radius: 10px; /* Скругление углов */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Тень */
+}
+
+.card-title {
+    font-size: 1.2rem; /* Размер заголовка карточки */
+    margin-bottom: 0.5rem; /* Отступ снизу */
+}
+
+.card-text {
+    color: #555; /* Цвет текста */
+}
+
+/* Формы */
+.form-control {
+    border: 1px solid #ccc; /* Граница инпута */
+    border-radius: 5px; /* Скругление углов */
+    padding: 8px 12px; /* Отступы внутри инпута */
+}
+
+.form-label {
+    font-weight: bold; /* Жирный шрифт для метки */
+}
+
+/* Навигация */
+.navbar {
+    background-color: #f8f9fa; /* Цвет фона навигации */
+    border-bottom: 1px solid #ddd; /* Граница снизу */
+    padding: 10px 0; /* Отступы */
+}
+
+.navbar-brand {
+    font-size: 1.5rem; /* Размер шрифта бренда навигации */
+    font-weight: bold; /* Жирный шрифт */
+    color: #333; /* Цвет текста */
+}
+
+.nav-link {
+    color: #333; /* Цвет текста ссылок */
+    font-weight: bold; /* Жирный шрифт */
+}
+
+    .nav-link:hover {
+        color: #007bff; /* Цвет текста при наведении */
+    }
+
+/* Подвал */
+.footer {
+    background-color: #f8f9fa; /* Цвет фона подвала */
+    border-top: 1px solid #ddd; /* Граница сверху */
+    padding: 20px 0; /* Отступы */
+    text-align: center; /* Выравнивание текста по центру */
+}
+.header {
+    background-color: #007bff; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    padding: 10px 0; /* Отступы внутри Header */
+    text-align: center; /* Выравнивание текста по центру */
+    margin-bottom: 20px; /* Отступ снизу */
+}
+
+    .header h1 {
+        font-size: 2rem; /* Размер шрифта заголовка */
+        font-weight: bold; /* Жирный шрифт */
+    }
+
+    .header p {
+        font-size: 1.2rem; /* Размер шрифта текста */
+    }
+.container {
+    margin-top: 20px;
+}
+
+.car-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.car-card {
+    flex: 1 1 calc(33.333% - 20px); /* Adjust the width as needed */
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+    .car-card .card {
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 15px;
+        background-color: #fff;
+    }
+
+    .car-card .card-body {
+        text-align: center;
+    }
+
+.card-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 14px;
+}

@@ -1,0 +1,24 @@
+﻿@model WebApplication1.Models.Car
+
+@{
+    ViewData["Title"] = "Delete Car";
+}
+
+<div class="container">
+    <h1 class="mt-5">Delete Car</h1>
+    <h3>Are you sure you want to delete this car?</h3>
+
+    <div class="card mt-3">
+        <div class="card-body">
+            <h5 class="card-title">@Model.Make @Model.Model</h5>
+            <p class="card-text">Year: @Model.Year</p>
+            <p class="card-text">Price: @Model.Price.ToString("C")</p>
+        </div>
+    </div>
+
+    <form asp-controller="Home" asp-action="DeleteCar" method="post">
+        <input type="hidden" asp-for="Id" />
+        <button type="submit" class="btn btn-danger mt-3">Delete</button>
+        <a href="@Url.Action("Index")" class="btn btn-secondary mt-3">Cancel</a>
+    </form>
+</div>
