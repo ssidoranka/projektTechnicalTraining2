@@ -18,8 +18,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Новая папка\projekt\WebApplication1\WebApplication1
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Новая папка/projekt/WebApplication1/WebApplication1/Views/Home/About.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
+[D:/Новая папка/projekt/WebApplication1/WebApplication1/Views/CarDetail/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyRGV0YWlsXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Новая папка/projekt/WebApplication1/WebApplication1/Views/CarDetail/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyRGV0YWlsXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Новая папка/projekt/WebApplication1/WebApplication1/Views/CarDetail/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyRGV0YWlsXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Новая папка/projekt/WebApplication1/WebApplication1/Views/CarDetail/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyRGV0YWlsXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Новая папка/projekt/WebApplication1/WebApplication1/Views/Home/AddCar.cshtml]
